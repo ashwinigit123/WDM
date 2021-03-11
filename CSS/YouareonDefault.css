@@ -16,14 +16,14 @@ body, html {
 .bg-image {
   /* The image used */
   background-image: url("image/img1.jpg");
-  
+
   /* Add the blur effect */
   filter: blur(8px);
   -webkit-filter: blur(8px);
-  
+
   /* Full height */
-  height: 100%; 
-  
+  height: 100%;
+
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
@@ -76,4 +76,131 @@ h1 {
 	text-align: center;
 	position : relative;
 	left: 20%
+}
+
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.sidenav {
+  height: 100%;
+  width: 180px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #0C2A46;
+  overflow-x: hidden;
+  padding-top: 50px;
+  margin-top: 40px;
+}
+
+.sidenav a {
+  padding: 15px 30px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #FFFFFF;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #39FF14;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+div.top_div {
+  padding-left: 180px;
+  padding: 10px;
+  width: 100%;
+  background-color: #0C2A46;
+  height: 40px;
+  font-size: 20px;
+  color: #FFFFFF;
+  text-align: right;
+}
+#content-area
+{
+  margin-left: 180px;
+  margin-top: -20px;
+  padding: 15px;
+  padding-top:40px;
+  font-size: 20px;
+  color: #000000;
+
+}
+div.heading h2{
+  color: #7D0552;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+div.cards .card {
+    background: #DCDCDC;
+    border-radius: 5px;
+  
+  }
+.col-md-4{
+ width: 320px;
+  height:150px;
+  padding:20px 15px;
+  display: inline-block;
+  border-bottom: 1px solid grey;
+}
+.card-name{
+  color:#7D0552;
+  display:inline;
+  padding-left: 50px;
+
+}
+.card-data
+{
+  color:#000;
+  display:block;
+  align-self: center;
+  padding:20px 20px;
+  padding-left: 100px;
+}
+.card-icon{
+  color:#7D0552;
+  padding: 0px 0px 10px;
+  font-size:48px;
+  float: left;
+}
+.style-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 14px;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.style-table thead tr {
+    background-color: #7D0552;
+    color: #ffffff;
+    text-align: left;
+
+}
+.style-table th,
+.style-table td {
+    padding: 6px 7px;
+}
+.style-table tbody tr {
+    border-bottom: 1px solid #7D0552;
+}
+
+.style-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.style-table tbody tr:last-of-type {
+    border-bottom: 2px solid #7D0552;
 }
