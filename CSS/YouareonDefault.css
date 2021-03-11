@@ -79,14 +79,7 @@ h1 {
 }
 
 
-/* Responsive columns */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-  }
-}
+
 .sidenav {
   height: 100%;
   width: 180px;
@@ -114,18 +107,22 @@ h1 {
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+  .style-table {
+    width:100%;
+  }
 }
 
 
 div.top_div {
   padding-left: 180px;
-  padding: 10px;
+  padding: 30px;
   width: 100%;
   background-color: #0C2A46;
-  height: 40px;
+  height: 60px;
   font-size: 20px;
   color: #FFFFFF;
   text-align: right;
+  position: fixed;
 }
 #content-area
 {
@@ -142,11 +139,12 @@ div.heading h2{
   font-size: 20px;
   font-weight: 400;
   margin-bottom: 10px;
+  padding-top: 10px;
 }
 div.cards .card {
     background: #DCDCDC;
     border-radius: 5px;
-  
+
   }
 .col-md-4{
  width: 320px;
