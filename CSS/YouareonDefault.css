@@ -52,7 +52,7 @@ body, html {
 		top:25%;
 		height:auto;
 	  }
-	} 
+	}
 
 /* Position text in the middle of the page/image */
 .main_logo {
@@ -81,7 +81,7 @@ h1 {
 	border-spacing: 0px;
 	text-align: left;
 	position : relative;
-	left: 20%
+	left: 35%
 }
 
 
@@ -118,13 +118,16 @@ h1 {
   }
 }
 
-
+#top-area
+{
+    height: 20px;
+}
 div.top_div {
   padding-left: 180px;
   padding: 30px;
   width: 100%;
   background-color: #0C2A46;
-  height: 60px;
+  height: 40px;
   font-size: 20px;
   color: #FFFFFF;
   text-align: right;
@@ -145,7 +148,7 @@ div.heading h2{
   font-size: 20px;
   font-weight: 400;
   margin-bottom: 10px;
-  padding-top: 10px;
+  padding-top: 25px;
 }
 div.cards .card {
     background: #DCDCDC;
