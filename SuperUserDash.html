@@ -9,22 +9,42 @@
 	<!--side menu -->
 	<div class="sidenav">
 
-	  <a href="#about"></i>Home</a>
-	  <a href="#services">Services</a>
-	  <a href="#contact">Contact</a>
-	  <a href="#chat">Chat</a>
+	<div class="sidenav_heading">
+			<h2>Menu</h2>
+	</div>
+
+	  <a href="#about">Home</a>
+	  <a href="#services">Why Us</a>
+	  <a href="#clients">Contact Us</a>
+		<a href="#contact">Blog</a>
 	</div>
 
 	<!-- Top Div -->
 	<section id="top-area">
 	<div class="top_div">
-  Super user
+  Super user	<div class="top_div_icon"><i class="fa fa-sign-out" aria-hidden="true"></i></div>
 </div>
+<div class="top_div_name">YouareOnDefault</div>
 </section>
 	<!-- cards -->
 <section id="content-area">
 	<div class="heading">
 			<h2>Dashboard</h2>
+	</div>
+
+	<!--Chat window-->
+	<button class="open-button" onclick="openForm()">Chat</button>
+
+	<div class="chat-popup" id="myForm">
+	  <form  class="form-container">
+	    <h1>Chat</h1>
+
+	    <label for="msg"><b>Message</b></label>
+	    <textarea placeholder="Type message.." name="msg" required></textarea>
+
+	    <button type="submit" class="btn">Send</button>
+	    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+	  </form>
 	</div>
 
 	<div class="cards">
@@ -63,7 +83,7 @@
 
 
 		<div class="heading">
-				<h2>Apartment Records</h2>
+				<h2 style="border-top: 2px solid #7D0552;">Apartment Records</h2>
 		</div>
  </div>
 <table class="style-table">
@@ -124,7 +144,7 @@
 	</tbody>
 </table>
 <div class="heading">
-<h2>Building records</h2></div>
+	<h2 style="border-top: 2px solid #7D0552;">Building records</h2></div>
 <table class="style-table">
 	<thead>
 		<tr class="style-row">
@@ -183,7 +203,7 @@
 	</tbody>
 </table>
 <div class="heading">
-<h2>subdivision records</h2></div>
+	<h2 style="border-top: 2px solid #7D0552;">Subdivision Records</h2></div>
 <table class="style-table">
 	<thead>
 		<tr class="style-row">
@@ -278,5 +298,12 @@
 	</tbody>
 </table>
 	</section>
+
+
+
+		<footer>
+		  <p>YouareOnDefault<br>
+		  <a href="#Contact">Contact Us</a>&nbsp;<a href="#Contact">Why Us</a>&nbsp;<a href="#Contact">Blog</a></p>
+		</footer>
 </body>
 </html>
