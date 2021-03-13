@@ -29,10 +29,9 @@ body, html {
   background-size: cover;
 }
 
-/* Position text in the middle of the page/image */
 .main {
-	background-color: rgb(0,0,0); /* Fallback color */
-	background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0, 0.4);
 	color: white;
 	font-weight: bold;
 	border: 3px solid #f1f1f1;
@@ -50,8 +49,8 @@ body, html {
 
 }
 .register {
-	background-color: rgb(0,0,0); /* Fallback color */
-	background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0, 0.4);
 	color: white;
 	font-weight: bold;
 	border: 3px solid #f1f1f1;
@@ -89,10 +88,9 @@ body, html {
 
 
 
-/* Position text in the middle of the page/image */
 .logo {
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
   color: white;
   font-weight: bold;
   border: 3px solid #f1f1f1;
@@ -316,7 +314,6 @@ div.cards .card {
   width: 100px;
 }
 
-/* The popup chat - hidden by default */
 .chat-popup {
   display: none;
   position: fixed;
@@ -326,7 +323,6 @@ div.cards .card {
   z-index: 9;
 }
 
-/* Add styles to the form container */
 .form-container {
   max-width: 250px;
   max-height: 500px;
@@ -334,7 +330,6 @@ div.cards .card {
   background-color: white;
 }
 
-/* Full-width textarea */
 .form-container textarea {
   width: 100%;
   padding: 15px;
@@ -345,13 +340,11 @@ div.cards .card {
   min-height: 200px;
 }
 
-/* When the textarea gets focus, do something */
 .form-container textarea:focus {
   background-color: #ddd;
   outline: none;
 }
 
-/* Set a style for the submit/send button */
 .form-container .btn {
   background-color: #fff;
   color: black;
@@ -363,12 +356,10 @@ div.cards .card {
   opacity: 0.8;
 }
 
-/* Add a red background color to the cancel button */
 .form-container .cancel {
   background-color: white;
 }
 
-/* Add some hover effects to buttons */
 .form-container .btn:hover, .open-button:hover {
   opacity: 1;
   background-color: #7D0552
@@ -383,7 +374,7 @@ footer {
 }
 .btn{
   padding: 10px 10px;
-  width: 15%;
+  width: auto%;
   margin-left: 20px;
   margin-top: 10px;
   color: black;
