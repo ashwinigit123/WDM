@@ -367,10 +367,13 @@ div.cards .card {
 }
 footer {
   text-align: center;
-  padding: 3px;
+  padding: 5px;
+  padding-bottom: 5px;
   background-color: #DCDCDC;
   color: white;
-  height: 60px;
+  height: 50px;
+  font-size: 13px;
+
 }
 .btn{
   padding: 10px 10px;
@@ -404,3 +407,13 @@ padding: 10px;
 margin: 10px;
 text-align: left;
 }
+
+/**contact me**/
+div.settings {
+    display:grid;
+    grid-template-columns: max-content max-content;
+    grid-gap:5px;
+    margin-left: 300px;
+}
+div.settings label       { text-align:right; }
+div.settings label:after { content: ":"; }
