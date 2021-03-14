@@ -14,9 +14,12 @@
 	</div>
 
 	<a href="HomePage.html">Home</a>
+	<a href="Maintainence.html">Maintenance</a>
+	<a href="Complaints.html">Complaints</a>
 	<a href="WhyUs.html">Why Us</a>
 	<a href="ContactUs.html">Contact Us</a>
 	<a href="http://axt1312.uta.cloud/">Blog</a>
+	<a href="Login.html">Logout</a>
 	</div>
 
 
@@ -43,6 +46,15 @@
     <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
   </form>
 </div>
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
 	<!-- cards -->
 <section id="content-area">
 	<div class="heading">
@@ -52,20 +64,20 @@
 	<div class="cards">
 	    <div class="card col-md-4">
 				<div class ="card-icon"><i class="far fa-building"></i></div>
-	      <span class="card-name">Total apartments</span>
-	      <span class="card-data">20</span>
+	      <span class="card-name">Utlities for March</span>
+	      <span class="card-data">100 $</span>
 	    </div>
 
 			    <div class="card col-md-4">
 						<div class ="card-icon"><i class="fas fa-water"></i></div>
-			      <span class="card-name">Current Utlities</span>
-			      <span class="card-data">20</span>
+			      <span class="card-name">Self-Services for March</span>
+			      <span class="card-data">100 $</span>
 			    </div>
 
 			    <div class="card col-md-4">
 						<div class ="card-icon"><i class="fas fa-wrench"></i></div>
-			      <span class="card-name"> Community Services </span>
-			      <span class="card-data">20</span>
+			      <span class="card-name"> Community Services Due</span>
+			      <span class="card-data">20 $</span>
 			    </div>
 		<div class="heading">
 				<h2 style="border-top: 2px solid #7D0552;">Apartment Master Record</h2>
@@ -75,56 +87,94 @@
 	<thead>
 		<tr class="style-row">
 			<th>
-				Building ID
+				Building Number
 			</th>
 			<th>
 				Apartment Number
 			</th>
 			<th>
-				Apartment Owner
+			Service Name
 			</th>
 			<th>
-				Apartment Owner Address
+			 Service Cost (USD)
+			</th>
+			
+		</tr>
+	</thead>
+	<tbody>
+		<tr><td>Building A</td>
+			<td>Apartment 1</td>
+			<td>Water</td>
+			<td>50</td>
+
+		</tr>
+		<tr>
+			<tr><td>Building A</td>
+				<td>Apartment 1</td>
+				<td>Power</td>
+				<td>50</td>
+
+		</tr>
+		<tr>
+			<tr><td>Building A</td>
+				<td>Apartment 1</td>
+				<td>Gas</td>
+				<td>50</td>
+
+		</tr>
+		<tr>
+			<tr><td>Building A</td>
+				<td>Apartment 1</td>
+				<td>Wifi (Self Service)</td>
+				<td>50</td>
+
+		</tr>
+	</tbody>
+</table>
+<div class="heading">
+		<h2 style="border-top: 2px solid #7D0552;">Monthly Bill</h2>
+</div>
+<div class="settings">
+
+		<label class="label">Select a month</label>
+		<select name="cars" id="cars" class="dropdown">
+			<option value="volvo">January</option>
+				<option value="volvo">February</option>
+					<option value="saab">March</option>
+			</select>
+
+</div>
+<table class="style-table">
+	<thead>
+		<tr class="style-row">
+			<th>
+				Building Number
 			</th>
 			<th>
-				Apartment Owner Phone
+				Apartment Number
 			</th>
 			<th>
-				Apartment Owner Email
+			Total Utilities (USD)
+			</th>
+			<th>
+				Total Self-Service Cost (USD)
+			</th>
+			<th>
+				Community Sevice Fee (USD)
+			</th>
+			<th>
+				Total Due (USD)
 			</th>
 		</tr>
 	</thead>
 	<tbody>
 		<tr><td>Building A</td>
 			<td>Apartment 1</td>
-			<td>Rob Levis</td>
-			<td>Arbor Oaks,Arlington,Texas</td>
-			<td>123-234-1234</td>
-			<td>rob@gmail.com</td>
-		</tr>
-		<tr>
-			<td>Building B</td>
-			<td>Apartment 1</td>
-			<td>Rob Levis</td>
-			<td>Arbor Oaks,Arlington,Texas</td>
-			<td>123-234-1234</td>
-			<td>rob@gmail.com</td>
-		</tr>
-		<tr>
-			<td>Building A</td>
-			<td>Apartment 5</td>
-			<td>Rob Levis</td>
-			<td>Arbor Oaks,Arlington,Texas</td>
-			<td>123-234-1234</td>
-			<td>rob@gmail.com</td>
-		</tr>
-		<tr>
-			<td>Building C</td>
-			<td>Apartment 1</td>
-			<td>Rob Levis</td>
-			<td>Arbor Oaks,Arlington,Texas</td>
-			<td>123-234-1234</td>
-			<td>rob@gmail.com</td>
+			<td>150</td>
+			<td>50</td>
+			<td>20</td>
+			<td>220</td>
+
 		</tr>
 	</tbody>
 </table>
