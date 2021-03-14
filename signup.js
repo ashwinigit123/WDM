@@ -1,5 +1,4 @@
 function sendMail() {
-		alert('in sendemail');
 			var emailID=document.getElementById("email").value;
 			var password=document.getElementById('pwd').value;
 			var subject = ('Welcome to YouareonDefault');
