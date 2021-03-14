@@ -19,27 +19,23 @@ function sendMail() {
 	  //    };
 		function redirectUser(f){
 			var user = document.getElementById("em").value;
-			alert('user:'+user);
 			if(user == 'abc@gmail.com')
 			{
-				alert('true')
 				//window.location="/BuildingDashboard.html"
 				f.action = "BuildingDashboard.html"
 				//return false;
 			}
 			if(user == 'xyz@gmail.com')
 			{
-				alert('true')
 				f.action ="ApartmentDash.html"
 			}
 			if(user == 'lmn@gmail.com')
 			{
-				alert('true')
+
 				f.action ="SubdivisionDashboard.html"
 			}
 			if(user == 'pqr@gmail.com')
 			{
-				alert('true')
 				f.action ="SuperUserDash.html"
 			}
 			return false;
