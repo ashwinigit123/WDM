@@ -4,6 +4,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="CSS/YouareonDefault.css">
 	<script type="text/javascript" src="signup.js">
+		document.getElementById("login").onclick = function () {
+				location.href = "Login.html";
+		};
 	</script>
 	<title>YouareOnDefault</title>
 
@@ -19,7 +22,7 @@
 
 				<p>Please Fill out the given details</p>
 				<br>
-				<form  method="POST" >
+				<form  method="POST" action="HomePage.html" >
 					<table id="registerform">
 						<tr><td> Full Name: </td></tr>
 						<tr>
@@ -33,7 +36,7 @@
 						</tr>
 						<tr>
 							<td>
-								<input type="email" size="30%" name="email" placeholder="ex@example.com">
+								<input type="email" size="30%" name="email" id="email" placeholder="ex@example.com">
 							</td>
 						</tr>
 						<tr>
@@ -41,7 +44,7 @@
 						</tr>
 						<tr>
 							<td>
-								<input type="password" name="password" placeholder="Password">
+								<input type="password" name="password" id="pwd" placeholder="Password">
 							</td>
 						</tr>
 						<tr>
