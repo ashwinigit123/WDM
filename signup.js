@@ -15,8 +15,8 @@ function sendMail() {
 				alert('You have registered successfully and Email has been sent. Click on login to go to login page.');
 		}
 
-		function redirectUser(){
-			var emailID = document.getElementById("em").value;
+function redirectUser(){
+		var emailID = document.getElementById("em").value;
 			alert('email:'+emailID);
 			if(emailID.includes('abc'))
 			{
