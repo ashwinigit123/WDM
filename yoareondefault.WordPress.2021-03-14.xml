@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/5.7" created="2021-03-12 22:59" -->
+	<!-- generator="WordPress/5.7" created="2021-03-14 19:49" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>YoAreOnDefault</title>
 	<link>http://axt1312.uta.cloud</link>
 	<description>Register Subdivison, Buildings and Aprtments on the Go!</description>
-	<pubDate>Fri, 12 Mar 2021 22:59:28 +0000</pubDate>
+	<pubDate>Sun, 14 Mar 2021 19:49:17 +0000</pubDate>
 	<language>en</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://axt1312.uta.cloud</wp:base_site_url>
@@ -44,13 +44,31 @@
 		<wp:cat_name><![CDATA[Uncategorized]]></wp:cat_name>
 	</wp:category>
 				<wp:term>
+		<wp:term_id>2</wp:term_id>
+		<wp:term_taxonomy><![CDATA[nav_menu]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[back-to-main]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Back to Main]]></wp:term_name>
+	</wp:term>
+		<wp:term>
+		<wp:term_id>3</wp:term_id>
+		<wp:term_taxonomy><![CDATA[nav_menu]]></wp:term_taxonomy>
+		<wp:term_slug><![CDATA[home]]></wp:term_slug>
+		<wp:term_parent><![CDATA[]]></wp:term_parent>
+		<wp:term_name><![CDATA[Home]]></wp:term_name>
+	</wp:term>
+		<wp:term>
 		<wp:term_id>1</wp:term_id>
 		<wp:term_taxonomy><![CDATA[category]]></wp:term_taxonomy>
 		<wp:term_slug><![CDATA[uncategorized]]></wp:term_slug>
 		<wp:term_parent><![CDATA[]]></wp:term_parent>
 		<wp:term_name><![CDATA[Uncategorized]]></wp:term_name>
 	</wp:term>
-		
+			<wp:term><wp:term_id>2</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[back-to-main]]></wp:term_slug><wp:term_name><![CDATA[Back to Main]]></wp:term_name>
+</wp:term>
+	<wp:term><wp:term_id>3</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[home]]></wp:term_slug><wp:term_name><![CDATA[Home]]></wp:term_name>
+</wp:term>
+
 	<generator>https://wordpress.org/?v=5.7</generator>
 
 		<item>
@@ -174,41 +192,6 @@
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_is_custom_background]]></wp:meta_key>
 		<wp:meta_value><![CDATA[twentytwentyone]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[what can be improved]]></title>
-		<link>http://axt1312.uta.cloud/uncategorized/what-can-be-improved/</link>
-		<pubDate>Wed, 10 Mar 2021 19:49:00 +0000</pubDate>
-		<dc:creator><![CDATA[pyrbp8]]></dc:creator>
-		<guid isPermaLink="false">http://axt1312.uta.cloud/?p=44</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:paragraph -->
-<p>need to add</p>
-<!-- /wp:paragraph -->]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>44</wp:post_id>
-		<wp:post_date><![CDATA[2021-03-10 19:49:00]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2021-03-10 19:49:00]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2021-03-12 20:03:47]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2021-03-12 20:03:47]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[what-can-be-improved]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021-03-12]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021-03-11]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -611,44 +594,6 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title><![CDATA[Contact Us]]></title>
-		<link>http://axt1312.uta.cloud/?page_id=24</link>
-		<pubDate>Fri, 05 Mar 2021 04:16:31 +0000</pubDate>
-		<dc:creator><![CDATA[pyrbp8]]></dc:creator>
-		<guid isPermaLink="false">http://axt1312.uta.cloud/?page_id=24</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:image {"id":26,"sizeSlug":"large","linkDestination":"none"} -->
-<figure class="wp-block-image size-large"><img src="http://axt1312.uta.cloud/wp-content/uploads/2021/03/IMG_20210301_172949-4-1024x467.jpg" alt="" class="wp-image-26"/></figure>
-<!-- /wp:image -->]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>24</wp:post_id>
-		<wp:post_date><![CDATA[2021-03-05 04:16:31]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2021-03-05 04:16:31]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2021-03-12 22:51:02]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2021-03-12 22:51:02]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[contact-us__trashed]]></wp:post_name>
-		<wp:status><![CDATA[trash]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[page]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
-		<wp:meta_value><![CDATA[publish]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1615589462]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
-		<wp:meta_value><![CDATA[contact-us]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
 		<title><![CDATA[IMG_20210301_172949-4]]></title>
 		<link>http://axt1312.uta.cloud/?attachment_id=26</link>
 		<pubDate>Fri, 05 Mar 2021 04:16:23 +0000</pubDate>
@@ -715,37 +660,6 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title><![CDATA[Disadvantage]]></title>
-		<link>http://axt1312.uta.cloud/uncategorized/disadvantage/</link>
-		<pubDate>Thu, 11 Mar 2021 06:28:00 +0000</pubDate>
-		<dc:creator><![CDATA[pyrbp8]]></dc:creator>
-		<guid isPermaLink="false">http://axt1312.uta.cloud/?p=37</guid>
-		<description></description>
-		<content:encoded><![CDATA[<!-- wp:paragraph -->
-<p>This is the disadvantage post</p>
-<!-- /wp:paragraph -->]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>37</wp:post_id>
-		<wp:post_date><![CDATA[2021-03-11 06:28:00]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2021-03-11 06:28:00]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2021-03-12 20:03:28]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2021-03-12 20:03:28]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[open]]></wp:ping_status>
-		<wp:post_name><![CDATA[disadvantage]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[post]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2021-03-12]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
 		<title><![CDATA[cropped-pexels-gabriela-palai-395198-scaled-1.jpg]]></title>
 		<link>http://axt1312.uta.cloud/cropped-pexels-gabriela-palai-395198-scaled-1-jpg/</link>
 		<pubDate>Fri, 12 Mar 2021 22:46:55 +0000</pubDate>
@@ -788,6 +702,181 @@
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_is_custom_header]]></wp:meta_key>
 		<wp:meta_value><![CDATA[storefront]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Back to YouAreOnDefault]]></title>
+		<link>http://axt1312.uta.cloud/uncategorized/home/</link>
+		<pubDate>Fri, 12 Mar 2021 23:41:01 +0000</pubDate>
+		<dc:creator><![CDATA[pyrbp8]]></dc:creator>
+		<guid isPermaLink="false">http://axt1312.uta.cloud/?p=62</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>62</wp:post_id>
+		<wp:post_date><![CDATA[2021-03-14 19:46:15]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2021-03-12 23:41:01]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-03-14 19:46:15]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-03-14 19:46:15]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[home]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="back-to-main"><![CDATA[Back to Main]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[62]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[http://axt1312.uta.cloud/WDMProject/HomePage.html]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2021-03-12]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Home]]></title>
+		<link>http://axt1312.uta.cloud/uncategorized/home-2/</link>
+		<pubDate>Sun, 14 Mar 2021 19:47:19 +0000</pubDate>
+		<dc:creator><![CDATA[pyrbp8]]></dc:creator>
+		<guid isPermaLink="false">http://axt1312.uta.cloud/?p=70</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>70</wp:post_id>
+		<wp:post_date><![CDATA[2021-03-14 19:47:19]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2021-03-14 19:47:19]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-03-14 19:47:19]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-03-14 19:47:19]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[home-2]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="home"><![CDATA[Home]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[70]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[http://axt1312.uta.cloud/]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[YouAreOnDefault Home]]></title>
+		<link>http://axt1312.uta.cloud/uncategorized/youareondefault-home/</link>
+		<pubDate>Sun, 14 Mar 2021 19:48:30 +0000</pubDate>
+		<dc:creator><![CDATA[pyrbp8]]></dc:creator>
+		<guid isPermaLink="false">http://axt1312.uta.cloud/uncategorized/youareondefault-home/</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>72</wp:post_id>
+		<wp:post_date><![CDATA[2021-03-14 19:48:30]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2021-03-14 19:48:30]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-03-14 19:48:30]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-03-14 19:48:30]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[youareondefault-home]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>2</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="home"><![CDATA[Home]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[72]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[http://axt1312.uta.cloud/WDMProject/HomePage.html]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -889,6 +978,44 @@ Commenter avatars come from <a href="https://gravatar.com">Gravatar</a>.]]></wp:
 		</wp:postmeta>
 							</item>
 					<item>
+		<title><![CDATA[Contact Us]]></title>
+		<link>http://axt1312.uta.cloud/?page_id=24</link>
+		<pubDate>Fri, 05 Mar 2021 04:16:31 +0000</pubDate>
+		<dc:creator><![CDATA[pyrbp8]]></dc:creator>
+		<guid isPermaLink="false">http://axt1312.uta.cloud/?page_id=24</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:image {"id":26,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="http://axt1312.uta.cloud/wp-content/uploads/2021/03/IMG_20210301_172949-4-1024x467.jpg" alt="" class="wp-image-26"/></figure>
+<!-- /wp:image -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>24</wp:post_id>
+		<wp:post_date><![CDATA[2021-03-05 04:16:31]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2021-03-05 04:16:31]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-03-12 22:51:02]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-03-12 22:51:02]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[contact-us__trashed]]></wp:post_name>
+		<wp:status><![CDATA[trash]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
+		<wp:meta_value><![CDATA[publish]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1615589462]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
+		<wp:meta_value><![CDATA[contact-us]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
 		<title><![CDATA[Advantages]]></title>
 		<link>http://axt1312.uta.cloud/uncategorized/advantages/</link>
 		<pubDate>Fri, 12 Mar 2021 19:25:21 +0000</pubDate>
@@ -896,14 +1023,42 @@ Commenter avatars come from <a href="https://gravatar.com">Gravatar</a>.]]></wp:
 		<guid isPermaLink="false">http://axt1312.uta.cloud/?p=33</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:paragraph -->
-<p>Our website has a wide variety of options for you to register as a Subdivision owner, a Building owner, an Apartment or as a Super User. </p>
-<!-- /wp:paragraph -->]]></content:encoded>
+<p>You are on default is one stop solution for managing housing properties. User can choose his role based on his property purchase.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>All the users are provided with dashboards which keeps them informed about their activities. They also get to see details of every resource used .</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>YouareOnDefault categorizes users into 3 categories-Subdivision owner, Building Owner and Apartment owner.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>These 3 roles sufficiently handles all of your housing portal needs.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>There are quite a few rent, sell and buy housing portals online like Craiglist, Hemlane-Property management software.,NestEgg etc.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>But all of these websites offer either leasing or buy and sell housing advertising platforms.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Our website is trying to focus on the more management side of pre-owned properties.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list {"ordered":true,"type":"1"} -->
+<ol type="1"><li>We manage all the owners and their properties on the website</li><li>User can anytime login and see the current status of his property</li><li>Apartment owners can directly chat with their building and subdivision owners.</li><li>Apartment owners get a monthly report about their pending dues.</li><li>Apartment owners can add extra services as add-ons which they personally prefer</li><li>They can file complaints and generate maintenance requests anytime.</li><li>Building and subdivision owners can now keep a track of multiple properties they own.</li><li>They will know which building and apartment owe them what fee.</li><li>Dashboards shows a tally of current billing cycle of all the sub-properties.</li></ol>
+<!-- /wp:list -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>33</wp:post_id>
 		<wp:post_date><![CDATA[2021-03-12 19:25:21]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2021-03-12 19:25:21]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2021-03-12 19:25:21]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2021-03-12 19:25:21]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2021-03-14 19:29:04]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-03-14 19:29:04]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[open]]></wp:ping_status>
 		<wp:post_name><![CDATA[advantages]]></wp:post_name>
@@ -915,6 +1070,41 @@ Commenter avatars come from <a href="https://gravatar.com">Gravatar</a>.]]></wp:
 		<wp:is_sticky>0</wp:is_sticky>
 										<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
 						</item>
+					<item>
+		<title><![CDATA[Disadvantage]]></title>
+		<link>http://axt1312.uta.cloud/uncategorized/disadvantage/</link>
+		<pubDate>Thu, 11 Mar 2021 06:28:00 +0000</pubDate>
+		<dc:creator><![CDATA[pyrbp8]]></dc:creator>
+		<guid isPermaLink="false">http://axt1312.uta.cloud/?p=37</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>Listed below are the few drawbacks of YouAreOnDefault Portal.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list {"ordered":true,"type":"1"} -->
+<ol type="1"><li>The website does not notify user for any billing status changes</li><li>No provision for payment of services for apartment owners</li><li>Missing FAQ’s which can inform new users about frequent questions.</li><li>No provision for rental properties.</li><li>Website&nbsp; does not provide enough&nbsp; functions for single family homes.</li></ol>
+<!-- /wp:list -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>37</wp:post_id>
+		<wp:post_date><![CDATA[2021-03-11 06:28:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2021-03-11 06:28:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-03-14 19:31:02]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-03-14 19:31:02]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[disadvantage]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2021-03-12]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
 					<item>
 		<title><![CDATA[What can be done]]></title>
 		<link>http://axt1312.uta.cloud/?p=41</link>
@@ -952,6 +1142,45 @@ Commenter avatars come from <a href="https://gravatar.com">Gravatar</a>.]]></wp:
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[what can be improved]]></title>
+		<link>http://axt1312.uta.cloud/uncategorized/what-can-be-improved/</link>
+		<pubDate>Wed, 10 Mar 2021 19:49:00 +0000</pubDate>
+		<dc:creator><![CDATA[pyrbp8]]></dc:creator>
+		<guid isPermaLink="false">http://axt1312.uta.cloud/?p=44</guid>
+		<description></description>
+		<content:encoded><![CDATA[<!-- wp:paragraph -->
+<p>There are a few areas where there is scope for improvement for the website.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list {"ordered":true} -->
+<ol><li>We can add in apartment rental/leasing services as an ad-on functionality to the users.</li><li>We can also make the dashboard more informative by adding in a lot of graphs and charts.</li><li>We can also add in support functionality for the users.</li><li>We can provide a help section where the users can find FAQs about the website.</li></ol>
+<!-- /wp:list -->]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>44</wp:post_id>
+		<wp:post_date><![CDATA[2021-03-10 19:49:00]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2021-03-10 19:49:00]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2021-03-14 19:35:18]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2021-03-14 19:35:18]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[open]]></wp:ping_status>
+		<wp:post_name><![CDATA[what-can-be-improved]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[post]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2021-03-12]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2021-03-11]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 				</channel>
