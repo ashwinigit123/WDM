@@ -153,7 +153,7 @@ h1 {
 
 .sidenav a {
   margin-top: 20px;
-  padding: 10px 30px;
+  padding: 5px 30px;
   text-decoration: none;
   font-size: 18px;
   color: #FFFFFF;
@@ -282,7 +282,7 @@ div.cards .card {
     min-width: 400px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
     margin-top: 10px;
-    
+
 }
 .style-table thead tr {
     background-color: #7D0552;
@@ -438,7 +438,7 @@ div.settings label:after { content: ":"; }
 
 
 div.maintenance{
-  margin-top: 60px;
+  margin-top: 20px;
   border-color: #7D0552;
   border-style: solid;
   background: #DCDCDC;
@@ -454,4 +454,25 @@ div.maintenance{
 
 }
 
-/**/
+/*add update delete*/
+.btn-group button {
+  background-color: #7D0552; /* purple background */
+  border: 1px solid #7D0552; /* purple border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  margin-top: 5px;
+  margin-left:200px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
