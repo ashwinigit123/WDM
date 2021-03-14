@@ -14,13 +14,33 @@ function sendMail() {
     	window.location.href = link;
 				alert('You have registered successfully and Email has been sent. Click on login to go to login page.');
 		}
-
-		function redirectUser(){
-			var emailID = document.getElementById("em").value;
-			alert('email:'+emailID);
-			if(emailID.includes('abc'))
+		// document.getElementById("myButton").onclick = function () {
+	  //        location.href = "www.yoursite.com";
+	  //    };
+		function redirectUser(f){
+			var user = document.getElementById("em").value;
+			alert('user:'+user);
+			if(user == 'abc@gmail.com')
 			{
 				alert('true')
-				location.href="https://www.w3schools.com/howto/howto_css_login_form.asp"
+				//window.location="/BuildingDashboard.html"
+				f.action = "BuildingDashboard.html"
+				//return false;
 			}
+			if(user == 'xyz@gmail.com')
+			{
+				alert('true')
+				f.action ="ApartmentDash.html"
+			}
+			if(user == 'lmn@gmail.com')
+			{
+				alert('true')
+				f.action ="SubdivisionDashboard.html"
+			}
+			if(user == 'pqr@gmail.com')
+			{
+				alert('true')
+				f.action ="SuperUserDash.html"
+			}
+			return false;
 		}
