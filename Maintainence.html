@@ -66,33 +66,60 @@ function closeForm() {
 			<h2>Maintenance Request</h2>
 			<p style="padding-top:5px;font-size:15px; color:#7D0552;border-top: 2px solid #7D0552;">File a Maintenance request to send it to your building owner!</p>
 	</div>
-<div class="maintenance">
-	<div class="settings">
+	<div class="container">
+		<form>
+			<div class="row">
+				<div class="col-25">
+					<label for="fname">Maintenance Type</label>
+				</div>
+				<div class="col-75">
+					<select name="cars" id="cars" class="dropdown">
+						<option value="Building 001">Building 001</option>
+						<option value="volvo">Power</option>
+					 <option value="saab">Water</option>
+					 <option value="saab">Water Sprinkler</option>
+					 <option value="saab">Thermostat</option>
+					 <option value="saab">AC Ducts</option>
+					 <option value="saab">Washer/Dryer/Refrigerator</option>
+					 <option value="opel">Gas</option>
+					 <option value="opel">Wi-Fi</option>
+					 <option value="audi">Other</option>
+						</select>
+				</div>
+			</div>
 
-	    <label class="label">Maintenance Type</label>
-			<select name="cars" id="cars" class="dropdown">
-				    <option value="volvo">Power</option>
-				    <option value="saab">Water</option>
-						<option value="saab">Water Sprinkler</option>
-						<option value="saab">Thermostat</option>
-						<option value="saab">AC Ducts</option>
-						<option value="saab">Washer/Dryer/Refrigerator</option>
-				    <option value="opel">Gas</option>
-						<option value="opel">Wi-Fi</option>
-				    <option value="audi">Other</option>
-		  </select>
-	    <label class="label">Location of Problem</label>
-			<select name="cars" id="cars" class="dropdown">
-				    <option value="volvo">Hall</option>
+			<div class="row">
+				<div class="col-25">
+					<label for="fname">Maintenance Area</label>
+				</div>
+				<div class="col-75">
+					<select name="cars" id="cars" class="dropdown">
+						<option value="volvo">Hall</option>
 				    <option value="saab">Kitchen</option>
 				    <option value="opel">Bedroom/s</option>
 						<option value="opel">Bathroom</option>
-		  </select>
-	    <label class="label">Describe the issue</label>
-			<textarea class="dropdown" id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-	    <label>Send</label>
-	    <input class="contact_submit" type="submit" value="Submit">
-</div>
+						</select>
+				</div>
+			</div>
+
+			<div class="row">
+ 				<div class="col-25">
+ 					<label for="fname">Describe the issue</label>
+ 				</div>
+ 				<div class="col-75">
+ 					<textarea class="dropdown" id="subject" name="subject" placeholder="Write something.." style="height:150px;width:300px;"></textarea>
+ 				</div>
+ 			</div>
+			<div class="row">
+				<div class="col-25">
+					<label for="fname"></label>
+				</div>
+				<div class="col-75">
+				<button style="background-color: #7D0552; border: 1px solid #7D0552; color:white; cursor:pointer; padding: 10px 24px;">
+					SEND</button>
+				</div>
+			</div>
+</form>
 	</div>
 
 

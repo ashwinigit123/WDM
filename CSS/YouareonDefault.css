@@ -48,6 +48,7 @@ body, html {
 
 
 }
+
 .register {
 	background-color: rgb(0,0,0);
 	background-color: rgba(0,0,0, 0.4);
@@ -69,6 +70,22 @@ body, html {
 .submitbtn{
   margin: 10px;
 }
+.contact_submit
+{
+  margin: 10px;
+  left: 10%;
+  align:center;
+  padding: 10px 10px;
+  width: auto%;
+  margin-left: 20px;
+  margin-top: 10px;
+  color: white;
+  cursor: pointer;
+  background-color: #7D0552;
+  color: black;
+  border: 2px solid #555555;
+
+}
 @media only screen and (max-width: 768px) {
   .main {
   top:30%;
@@ -83,9 +100,6 @@ body, html {
 	  }
 
 	}
-
-
-
 
 
 .logo {
@@ -114,8 +128,28 @@ h1 {
 	border-spacing: 0px;
 	text-align: left;
 	position : relative;
-	left: 35%
+	left: 35%;
+
 }
+#contactform {
+	width: 10%;
+	border-spacing: 0px;
+	text-align: left;
+	position : relative;
+	left: 15%;
+
+}
+@media only screen and (max-width: 768px) {
+  #contactform {
+    left:-45%;
+    }
+}
+@media only screen and (max-width: 450px) {
+  #contactform {
+    left:0%;
+    }
+}
+
 
 @media only screen and (max-width: 768px) {
   #loginform {
@@ -147,7 +181,7 @@ h1 {
   left: 0;
   background-color: #0C2A46;
   overflow-x: hidden;
-  padding-top: 50px;
+  padding-top: 45px;
   margin-top: 40px;
 }
 
@@ -422,18 +456,18 @@ text-align: left;
 
 /**contact me**/
 div.settings {
-    display:grid;
-    grid-template-columns: max-content max-content;
-    grid-gap:5px;
-    margin-left: 300px;
+display:grid;
+grid-template-columns: max-content max-content;
+grid-gap:5px;
+margin-left: 300px;
 }
 @media screen and (max-width: 450px) {
-  .settings,.label,.dropdown {
-    width: 100%;
-    margin-top: 0;
+  div.settings,div.settings label,.dropdown {
+
+    margin-left: 0;
   }
 }
-div.settings label       {text-align:right; max-width: 450px; }
+div.settings.row.col-25 label       {text-align:left; max-width: 450px; height:30px;}
 div.settings label:after { content: ":"; }
 
 
@@ -462,7 +496,7 @@ div.maintenance{
   padding: 10px 24px; /* Some padding */
   cursor: pointer; /* Pointer/hand icon */
   float: left; /* Float the buttons side by side */
-  margin-top: 5px;
+  margin-top: 10px;
   margin-left:200px;
 }
 
@@ -475,4 +509,67 @@ div.maintenance{
 
 .btn-group button:not(:last-child) {
   border-right: none; /* Prevent double borders */
+}
+///***////
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+/*input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}*/
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  padding-bottom: 5px;
+  margin-bottom: 30px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75,.row_c, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
 }

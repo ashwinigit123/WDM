@@ -1,39 +1,48 @@
+<!DOCTYPE html>
 <html>
-<head lang="en">
-	<meta charset="utf-8">
-	<meta content="width=device-width, initial-scale=1" name="viewport" />
-	<link rel="stylesheet" href="CSS/YouareonDefault.css">
-	<title>YouareOnDefault</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="CSS/YouareonDefault.css">
+
+<title>YouareOnDefault</title>
+
 </head>
-<body id="wrapper">
+<body>
 <div class="bgrndimage"></div>
 <div class="logo">  <h1>YouareOnDefault</h1> </div>
 
-<div class="main">
+<div class="register" >
 
 
 <h2>Contact Us</h2>
 
-<form>
-<div class="settings">
 
-    <label>First Name</label>
-    <input type="text" />
-    <label>Last Name</label>
-    <input type="text" />
-    <label>Message For Us</label>
-		<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-    <label>Send</label>
-    <input class="contact_submit" type="submit" value="Submit">
+<br>
+<form  method="POST" action="HomePage.html" >
+<table id="registerform">
+<tr><td  style="color:white;"> Full Name: </td></tr>
+<tr>
+<td>
+<input type="text" name="firstname" placeholder="First Name">
+<input type="text" name="lastname" placeholder="Last Name">
+</td>
+</tr>
+<tr>
+<td style="color:white;">Message For Us
+</td></tr>
+<tr>
 
-</div>
+<td>
+<textarea id="subject" name="subject" placeholder="Write something.." style="height:100px; width:350px;"></textarea>
+</td>
+</tr>
+</table>
+<input class="submitbtn" type="submit" name="submit" value="Send" >
 </form>
-
-  </div>
-
+</div>
 <footer>
-	<p>YouareOnDefault<br>
-	<a href="ContactUs.html">Contact Us</a>&nbsp;<a href="WhyUs.html">Why Us</a>&nbsp;<a href="http://axt1312.uta.cloud/">Blog</a></p>
+<p>YouareOnDefault<br>
+<a href="ContactUs.html">Contact Us</a>&nbsp;<a href="WhyUs.html">Why Us</a>&nbsp;<a href=http://axt1312.uta.cloud/>Blog</a></p>
 </footer>
 </body>
 </html>
