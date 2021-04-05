@@ -17,14 +17,14 @@ Sathyanaraya Deepika UTAID 1001870967--->
 			<h2>Menu</h2>
 	</div>
 	<a href="HomePage.html">Home</a>
-	<a href="SuperUserDash.html">Dashboard</a>
-	<a href="AddSubdivision.html">Add Subdivision</a>
-	<a href="AddBuilding.html">Add Building</a>
-	<a href="AddApartment.html">Add Apartment</a>
-	<a href="WhyUs.html">Why Us</a>
-	<a href="ContactUs.html">Contact Us</a>
+	<a href="SuperUserDash.php">Dashboard</a>
+	<a href="AddSubdivision.php">Add Subdivision</a>
+	<a href="AddBuilding.php">Add Building</a>
+	<a href="AddApartment.php">Add Apartment</a>
+	<a href="WhyUs.php">Why Us</a>
+	<a href="ContactUs.php">Contact Us</a>
 	<a href="http://axt1312.uta.cloud/">Blog</a>
-	<a href="Login.html">Logout</a>
+	<a href="Login.php">Logout</a>
 	</div>
 
 	<!-- Top Div -->
@@ -209,7 +209,7 @@ function closeForm() {
 				<label class="label">Apartment Name</label>
 				</div>
 				<div class="col-75">
-					<input type="text" name="apt_name" />
+					<input type="text" name="apt_name" required />
 				</div>
 			</div>
 
@@ -228,7 +228,7 @@ function closeForm() {
 				<label class="label">Apartment Owner First Name</label>
 				</div>
 				<div class="col-75">
-					<input type="text" name="firstname" />
+					<input type="text" name="firstname" required />
 				</div>
 			</div>
 
@@ -237,7 +237,7 @@ function closeForm() {
 				<label class="label">Apartment Owner Last Name</label>
 				</div>
 				<div class="col-75">
-					<input type="text" name="lastname"/>
+					<input type="text" name="lastname" required/>
 				</div>
 			</div>
 
@@ -246,7 +246,7 @@ function closeForm() {
 				<label class="label">Apartment Owner Contact</label>
 				</div>
 				<div class="col-75">
-					<input type="text" name="apt_phone" />
+					<input type="text" name="apt_phone" required />
 				</div>
 			</div>
 
@@ -255,12 +255,12 @@ function closeForm() {
 				<label class="label">Apartment Owner Email</label>
 				</div>
 				<div class="col-75">
-					<input type="text" name="apt_email"/>
+					<input type="text" name="apt_email" required/>
 				</div>
 			</div>
 			<div class="btn-group">
 				<button name="apt_add">Add</button>
-				<button formaction="UpdateApartment.php">Update</button>
+				<button formaction="UpdateApartment.php" formnovalidate>Update</button>
 
 			</div>
 </form>
@@ -280,7 +280,7 @@ function closeForm() {
 		var v1 = document.getElementById('subdiv').value;
 		localStorage.setItem('subdiv', v1);
 		self.location='AddApartment.php?subdiv_name=' +v1;
-		alert(v1);
+
 
 	}
 	function refresh_val()

@@ -17,14 +17,14 @@ Sathyanaraya Deepika UTAID 1001870967--->
 			<h2>Menu</h2>
 	</div>
 	<a href="HomePage.html">Home</a>
-	<a href="SuperUserDash.html">Dashboard</a>
-	<a href="AddSubdivision.html">Add Subdivision</a>
-	<a href="AddBuilding.html">Add Building</a>
-	<a href="AddApartment.html">Add Apartment</a>
-	<a href="WhyUs.html">Why Us</a>
-	<a href="ContactUs.html">Contact Us</a>
+	<a href="SuperUserDash.php">Dashboard</a>
+	<a href="AddSubdivision.php">Add Subdivision</a>
+	<a href="AddBuilding.php">Add Building</a>
+	<a href="AddApartment.php">Add Apartment</a>
+	<a href="WhyUs.php">Why Us</a>
+	<a href="ContactUs.php">Contact Us</a>
 	<a href="http://axt1312.uta.cloud/">Blog</a>
-	<a href="Login.html">Logout</a>
+	<a href="Login.php">Logout</a>
 	</div>
 
 	<!-- Top Div -->
@@ -121,7 +121,7 @@ function getSavedValue  (v){
       <label for="fname">Building Name</label>
     </div>
     <div class="col-75">
-				<input type="text" name="build_name" />
+				<input type="text" name="build_name" required />
     </div>
   </div>
 
@@ -139,7 +139,7 @@ function getSavedValue  (v){
 		<label for="fname">Building Owner First Name</label>
 	</div>
 	<div class="col-75">
-			<input type="text" name="First_name" />
+			<input type="text" name="First_name" required />
 	</div>
 </div>
 
@@ -148,7 +148,7 @@ function getSavedValue  (v){
 		<label for="fname">Building Owner Last Name</label>
 		</div>
 		<div class="col-75">
-		<input type="text" name="Last_name" />
+		<input type="text" name="Last_name" required />
 
 	</div>
 </div>
@@ -158,7 +158,7 @@ function getSavedValue  (v){
 		<label for="fname">Building Owner Contact</label>
 	</div>
 	<div class="col-75">
-		<input type="text" name="build_phone"/>
+		<input type="text" name="build_phone" required/>
 
 	</div>
 </div>
@@ -168,7 +168,7 @@ function getSavedValue  (v){
 		<label for="fname">Building Owner Email</label>
 	</div>
 	<div class="col-75">
-		<input type="text" name="build_email"/>
+		<input type="text" name="build_email" required/>
 
 	</div>
 </div>
