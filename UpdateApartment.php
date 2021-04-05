@@ -17,14 +17,14 @@ Sathyanaraya Deepika UTAID 1001870967--->
 			<h2>Menu</h2>
 	</div>
 	<a href="HomePage.html">Home</a>
-	<a href="SuperUserDash.html">Dashboard</a>
-	<a href="AddSubdivision.html">Add Subdivision</a>
-	<a href="AddBuilding.html">Add Building</a>
-	<a href="AddApartment.html">Add Apartment</a>
-	<a href="WhyUs.html">Why Us</a>
-	<a href="ContactUs.html">Contact Us</a>
+	<a href="SuperUserDash.php">Dashboard</a>
+	<a href="AddSubdivision.php">Add Subdivision</a>
+	<a href="AddBuilding.php">Add Building</a>
+	<a href="AddApartment.php">Add Apartment</a>
+	<a href="WhyUs.php">Why Us</a>
+	<a href="ContactUs.php">Contact Us</a>
 	<a href="http://axt1312.uta.cloud/">Blog</a>
-	<a href="Login.html">Logout</a>
+	<a href="Login.php">Logout</a>
 	</div>
 
 	<!-- Top Div -->
@@ -63,8 +63,8 @@ function closeForm() {
 	<!-- cards -->
 <section id="content-area">
 	<div class="heading" >
-			<h2>Add Apartment</h2>
-			<p style="padding-top:5px;font-size:15px; color:#7D0552;border-top: 2px solid #7D0552;">Update  an Apartment!</p>
+			<h2>Update Apartment</h2>
+			<p style="padding-top:5px;font-size:15px; color:#7D0552;border-top: 2px solid #7D0552;">Add, Update  an Apartment!</p>
 	</div>
 	<div class="container">
 		<form action="" method="post">
@@ -148,7 +148,7 @@ $apt_phone = $_POST['apt_phone'];
 				<label class="label">Apartment Name</label>
 				</div>
 				<div class="col-75">
-					<input type="text" name="apt_name" value="<?php echo $apt_name ?>" />
+					<input type="text" name="apt_name" required value="<?php echo $apt_name ?>" />
 				</div>
 			</div>
 
@@ -167,7 +167,7 @@ $apt_phone = $_POST['apt_phone'];
 				<label class="label">Apartment Owner First Name</label>
 				</div>
 				<div class="col-75">
-					<input type="text" name="firstname" value="<?php echo $firstname ?>" />
+					<input type="text" name="firstname" required value="<?php echo $firstname ?>" />
 				</div>
 			</div>
 
@@ -176,7 +176,7 @@ $apt_phone = $_POST['apt_phone'];
 				<label class="label">Apartment Owner Last Name</label>
 				</div>
 				<div class="col-75">
-					<input type="text" name="lastname" value="<?php echo $lastname ?>"/>
+					<input type="text" name="lastname" required value="<?php echo $lastname ?>"/>
 				</div>
 			</div>
 
@@ -185,7 +185,7 @@ $apt_phone = $_POST['apt_phone'];
 				<label class="label">Apartment Owner Contact</label>
 				</div>
 				<div class="col-75">
-					<input type="text" name="apt_phone" value="<?php echo $apt_phone ?>" />
+					<input type="text" name="apt_phone" required value="<?php echo $apt_phone ?>" />
 				</div>
 			</div>
 
@@ -194,7 +194,7 @@ $apt_phone = $_POST['apt_phone'];
 				<label class="label">Apartment Owner Email</label>
 				</div>
 				<div class="col-75">
-					<input type="text" name="apt_email" value="<?php echo $apt_email ?>"/>
+					<input type="text" name="apt_email" required value="<?php echo $apt_email ?>"/>
 				</div>
 			</div>
 			<div class="btn-group">

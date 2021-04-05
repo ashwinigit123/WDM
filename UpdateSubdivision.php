@@ -19,14 +19,14 @@ Sathyanaraya Deepika UTAID 1001870967--->
 	</div>
 
 	<a href="HomePage.html">Home</a>
-	<a href="SuperUserDash.html">Dashboard</a>
-	<a href="AddSubdivision.html">Add Subdivision</a>
-	<a href="AddBuilding.html">Add Building</a>
-	<a href="AddApartment.html">Add Apartment</a>
+	<a href="SuperUserDash.php">Dashboard</a>
+	<a href="AddSubdivision.php">Add Subdivision</a>
+	<a href="AddBuilding.php">Add Building</a>
+	<a href="AddApartment.php">Add Apartment</a>
 	<a href="WhyUs.html">Why Us</a>
-	<a href="ContactUs.html">Contact Us</a>
+	<a href="ContactUs.php">Contact Us</a>
 	<a href="http://axt1312.uta.cloud/">Blog</a>
-	<a href="Login.html">Logout</a>
+	<a href="Login.php">Logout</a>
 	</div>
 
 	<!-- Top Div -->
@@ -65,14 +65,14 @@ function closeForm() {
 	<!-- cards -->
 <section id="content-area">
 	<div class="heading" >
-			<h2>Add Subdivision</h2>
-			<p style="padding-top:5px;font-size:15px; color:#7D0552;border-top: 2px solid #7D0552;">Update subdivision!</p>
+			<h2>Updaate Subdivision</h2>
+			<p style="padding-top:5px;font-size:15px; color:#7D0552;border-top: 2px solid #7D0552;">Add, Update or Delete a subdivision!</p>
 	</div>
 	<div class="container">
 		<form action="" method="post">
 			<div class="row">
 				<div class="col-25">
-					<label class="label">Select Subdivision to Update or Delete</label>
+					<label class="label">Select Subdivision to Update</label>
 				</div>
 				<div class="col-75">
 	<select name="subdiv" id="subdiv" class="dropdown" onChange='reload()'>
@@ -170,7 +170,7 @@ $subcontact = $_POST['sub_phone'];
 					<label class="label">Subdivision Name</label>
 				</div>
 				<div class="col-75">
-				<input type="text" name="sub_name" value="<?php echo $sub_name ?>"/>
+				<input type="text" required name="sub_name" value="<?php echo $sub_name ?>"/>
 				</div>
 			</div>
 
@@ -189,7 +189,7 @@ $subcontact = $_POST['sub_phone'];
 					<label class="label">Subdivision Owner First Name</label>
 				</div>
 				<div class="col-75">
-				<input type="text" name="First_name" value="<?php echo $sub_fname ?>"/>
+				<input type="text" required name="First_name" value="<?php echo $sub_fname ?>"/>
 				</div>
 			</div>
 
@@ -198,7 +198,7 @@ $subcontact = $_POST['sub_phone'];
 					<label class="label">Subdivision Owner Last Name</label>
 				</div>
 				<div class="col-75">
-				<input type="text" name="Last_name" value="<?php echo $sub_lname ?>" />
+				<input type="text" required name="Last_name" value="<?php echo $sub_lname ?>" />
 				</div>
 			</div>
 
@@ -207,7 +207,7 @@ $subcontact = $_POST['sub_phone'];
 					<label class="label">Subdivision Owner Contact</label>
 				</div>
 				<div class="col-75">
-				<input type="text" name="sub_phone" value="<?php echo $sub_phone ?>" />
+				<input required type="text" name="sub_phone" value="<?php echo $sub_phone ?>" />
 				</div>
 			</div>
 

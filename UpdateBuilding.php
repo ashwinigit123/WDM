@@ -17,14 +17,14 @@ Sathyanaraya Deepika UTAID 1001870967--->
 			<h2>Menu</h2>
 	</div>
 	<a href="HomePage.html">Home</a>
-	<a href="SuperUserDash.html">Dashboard</a>
-	<a href="AddSubdivision.html">Add Subdivision</a>
-	<a href="AddBuilding.html">Add Building</a>
-	<a href="AddApartment.html">Add Apartment</a>
-	<a href="WhyUs.html">Why Us</a>
-	<a href="ContactUs.html">Contact Us</a>
+	<a href="SuperUserDash.php">Dashboard</a>
+	<a href="AddSubdivision.php">Add Subdivision</a>
+	<a href="AddBuilding.php">Add Building</a>
+	<a href="AddApartment.php">Add Apartment</a>
+	<a href="WhyUs.php">Why Us</a>
+	<a href="ContactUs.php">Contact Us</a>
 	<a href="http://axt1312.uta.cloud/">Blog</a>
-	<a href="Login.html">Logout</a>
+	<a href="Login.php">Logout</a>
 	</div>
 
 	<!-- Top Div -->
@@ -64,7 +64,7 @@ function closeForm() {
 <section id="content-area">
 	<div class="heading" >
 			<h2>Add Building</h2>
-			<p style="padding-top:5px;font-size:15px; color:#7D0552;border-top: 2px solid #7D0552;">Update a Building!</p>
+			<p style="padding-top:5px;font-size:15px; color:#7D0552;border-top: 2px solid #7D0552;">Add, Update or Delete a Building!</p>
 	</div>
 <div class="container">
   <form action="" method="post">
@@ -169,7 +169,7 @@ if (isset($_POST['building_update'])) {
       <label for="fname">Building Name</label>
     </div>
     <div class="col-75">
-				<input type="text" name="build_name" value="<?php echo $build_name ?>" />
+				<input type="text" required name="build_name" value="<?php echo $build_name ?>" />
     </div>
   </div>
 
@@ -188,7 +188,7 @@ if (isset($_POST['building_update'])) {
 		<label for="fname">Building Owner First Name</label>
 	</div>
 	<div class="col-75">
-			<input type="text" name="First_name" value="<?php echo $First_name ?>" />
+			<input type="text" required name="First_name" value="<?php echo $First_name ?>" />
 	</div>
 </div>
 
@@ -197,7 +197,7 @@ if (isset($_POST['building_update'])) {
 		<label for="fname">Building Owner Last Name</label>
 		</div>
 		<div class="col-75">
-		<input type="text" name="Last_name" value="<?php echo $Last_name ?>" />
+		<input type="text" required name="Last_name" value="<?php echo $Last_name ?>" />
 
 	</div>
 </div>
@@ -207,7 +207,7 @@ if (isset($_POST['building_update'])) {
 		<label for="fname">Building Owner Contact</label>
 	</div>
 	<div class="col-75">
-		<input type="text" name="build_phone" value="<?php echo $build_phone ?>"/>
+		<input type="text" required name="build_phone" value="<?php echo $build_phone ?>"/>
 
 	</div>
 </div>
@@ -217,7 +217,7 @@ if (isset($_POST['building_update'])) {
 		<label for="fname">Building Owner Email</label>
 	</div>
 	<div class="col-75">
-		<input type="text" name="build_email" value="<?php echo $build_email ?>"/>
+		<input type="text" required name="build_email" value="<?php echo $build_email ?>"/>
 
 	</div>
 </div>

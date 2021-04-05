@@ -30,7 +30,7 @@ $data = [
       die("Could not connect to the database $dbname :" . $pe->getMessage());
   }
 }
-elseif (isset($_POST['subdivision_update'])) {
+/*elseif (isset($_POST['subdivision_update'])) {
 $dropdown=$_POST['subdiv'];
  try {
 $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
@@ -42,7 +42,7 @@ $pdo->prepare($sql)->execute([$data]);
      catch (PDOException $pe) {
      die("Could not connect to the database $dbname :" . $pe->getMessage());
  }
-}
+}*/
 
 // Check connection
 /*if($conn === false){
