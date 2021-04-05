@@ -21,8 +21,6 @@ Sathyanaraya Deepika UTAID 1001870967--->
 	<a href="AddSubdivision.php">Add Subdivision</a>
 	<a href="AddBuilding.php">Add Building</a>
 	<a href="AddApartment.php">Add Apartment</a>
-	<a href="WhyUs.php">Why Us</a>
-	<a href="ContactUs.php">Contact Us</a>
 	<a href="http://axt1312.uta.cloud/">Blog</a>
 	<a href="Login.php">Logout</a>
 	</div>
@@ -174,7 +172,7 @@ function getSavedValue  (v){
 </div>
 <div class="btn-group">
 	<button name="build_add">Add</button>
-	<button name="update" formaction="UpdateBuilding.php">Update</button>
+	<button name="update" formnovalidate formaction="UpdateBuilding.php">Update</button>
 </div>
 
 </form>
@@ -185,7 +183,7 @@ function getSavedValue  (v){
 	</section>
 	<footer>
 	  <p>YouareOnDefault<br>
-	  <a href="#Contact">Contact Us</a>&nbsp;<a href="#Contact">Why Us</a>&nbsp;<a href="#Contact">Blog</a></p>
+				<a href="ContactUs.php">Contact Us</a>&nbsp;<a href="WhyUs.php">Why Us</a>&nbsp;<a href="http://axt1312.uta.cloud/">Blog</a></p>
 	</footer>
 
 </body>

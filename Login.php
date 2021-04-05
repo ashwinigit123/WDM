@@ -36,15 +36,15 @@
         session_start();
          $_SESSION['userid'] = $uname;
         if($roleID == 1){
-            header('Location:http://axt1312.uta.cloud/WDMProject/SubdivisionDashboard.html');
+            header('Location:http://axt1312.uta.cloud/WDMProject/Subdivision.php');
             exit;
         }
         if($roleID == 2){
-            header('Location:http://axt1312.uta.cloud/WDMProject/BuildingDashboard.php');
+            header('Location:http://axt1312.uta.cloud/WDMProject/Building1.php');
             exit;
         }
         if($roleID == 3){
-            header('Location:http://axt1312.uta.cloud/WDMProject/ApartmentDash.html');
+            header('Location:http://axt1312.uta.cloud/WDMProject/ApartmentDashboard.php');
             exit;
         }
         if($roleID == 4){
@@ -110,7 +110,7 @@
 
 <footer>
 	<p>YouareOnDefault<br>
-	<a href="ContactUs.php">Contact Us</a>&nbsp;<a href="WhyUs.html">Why Us</a>&nbsp;<a href="http://axt1312.uta.cloud/">Blog</a></p>
+	<a href="ContactUs.php">Contact Us</a>&nbsp;<a href="WhyUs.php">Why Us</a>&nbsp;<a href="http://axt1312.uta.cloud/">Blog</a></p>
 </footer>
 </body>
 </html>

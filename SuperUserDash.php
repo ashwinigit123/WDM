@@ -17,8 +17,6 @@
 	<a href="AddSubdivision.php">Add Subdivision</a>
 	<a href="AddBuilding.php">Add Building</a>
 	<a href="AddApartment.php">Add Apartment</a>
-	<a href="WhyUs.php">Why Us</a>
-	<a href="ContactUs.php">Contact Us</a>
 	<a href="http://axt1312.uta.cloud/">Blog</a>
 	<a href="Login.php">Logout</a>
 	</div>
@@ -377,8 +375,8 @@
 	<br><br>
 
 	<footer>
-		<p>YouareOnDefault<br>
-		<a href="ContactUs.html">Contact Us</a>&nbsp;<a href="WhyUs.html">Why Us</a>&nbsp;<a href="http://axt1312.uta.cloud/">Blog</a></p>
+	  <p>YouareOnDefault<br>
+				<a href="ContactUs.php">Contact Us</a>&nbsp;<a href="WhyUs.php">Why Us</a>&nbsp;<a href="http://axt1312.uta.cloud/">Blog</a></p>
 	</footer>
 </body>
 </html>

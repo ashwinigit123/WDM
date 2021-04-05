@@ -84,8 +84,8 @@
 </form>
 </div>
 <footer>
-<p>YouareOnDefault<br>
-<a href="ContactUs.html">Contact Us</a>&nbsp;<a href="WhyUs.html">Why Us</a>&nbsp;<a href=http://axt1312.uta.cloud/>Blog</a></p>
+  <p>YouareOnDefault<br>
+      <a href="ContactUs.php">Contact Us</a>&nbsp;<a href="WhyUs.php">Why Us</a>&nbsp;<a href="http://axt1312.uta.cloud/">Blog</a></p>
 </footer>
 </body>
 </html>
