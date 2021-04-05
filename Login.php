@@ -33,13 +33,14 @@
             $roleID = $row['role_id'];
             //echo $usrID;
         }
+        session_start();
          $_SESSION['userid'] = $uname;
         if($roleID == 1){
             header('Location:http://axt1312.uta.cloud/WDMProject/SubdivisionDashboard.html');
             exit;
         }
         if($roleID == 2){
-            header('Location:http://axt1312.uta.cloud/WDMProject/BuildingDashboard.html');
+            header('Location:http://axt1312.uta.cloud/WDMProject/BuildingDashboard.php');
             exit;
         }
         if($roleID == 3){
@@ -47,7 +48,7 @@
             exit;
         }
         if($roleID == 4){
-            header('Location:http://axt1312.uta.cloud/WDMProject/SuperUserDash.html');
+            header('Location:http://axt1312.uta.cloud/WDMProject/SuperUserDash.php');
             exit;
         }
         //echo "Login Credentials verified";
