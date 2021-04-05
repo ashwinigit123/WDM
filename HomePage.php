@@ -18,7 +18,7 @@
 
 The users will be able to register for housing online. Please visit the Housing Portal regularly to find updated information about various housing activities.Find out more about <a href="WhyUs.html">Why Us!</a>
 
-If you have questions about this website, please <a href="ContactUs.html">Contact Us</a></p>
+If you have questions about this website, please <a href="ContactUs.php">Contact Us</a></p>
 <br>
 <div style="text-align: center;">If you are a new user, please sign up!<button id="register" class="btn">Register Here!</button>
 </div>
@@ -29,7 +29,7 @@ If you have questions about this website, please <a href="ContactUs.html">Contac
         location.href = "Signup.php";
     };
 		document.getElementById("login").onclick = function () {
-        location.href = "Login.php";
+        location.href = "Login.html";
     };
 </script>
 </div>

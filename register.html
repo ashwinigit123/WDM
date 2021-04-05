@@ -22,13 +22,13 @@
 
 				<p>Please Fill out the given details</p>
 				<br>
-				<form  method="POST" action="HomePage.html" >
+				<form  method="POST" action="test.php" onsubmit="return confirmPass(); ">
 					<table id="registerform">
 						<tr><td> Full Name: </td></tr>
 						<tr>
 							<td>
-								<input type="text" name="firstname" placeholder="First Name">
-								<input type="text" name="lastname" placeholder="Last Name">
+								<input type="text" name="firstname" placeholder="First Name" required>
+								<input type="text" name="lastname" placeholder="Last Name" required>
 							</td>
 						</tr>
 						<tr>
@@ -36,7 +36,7 @@
 						</tr>
 						<tr>
 							<td>
-								<input type="email" size="30%" name="email" id="email" placeholder="ex@example.com">
+								<input type="email" size="30%" name="email" id="email" placeholder="ex@example.com" required>
 							</td>
 						</tr>
 						<tr>
@@ -44,7 +44,7 @@
 						</tr>
 						<tr>
 							<td>
-								<input type="password" name="password" id="pwd" placeholder="Password">
+								<input type="password" name="password" id="pwd" placeholder="Password" required>
 							</td>
 						</tr>
 						<tr>
@@ -52,7 +52,7 @@
 						</tr>
 						<tr>
 							<td>
-								<input type="password" name="confpassword" placeholder="Re-enter Password">
+								<input type="password" name="confpassword" id="cnpass" placeholder="Re-enter Password" required >
 							</td>
 						</tr>
 						<tr><td> Address: </td></tr>
@@ -68,14 +68,14 @@
 						</tr>
 						<tr>
 							<td>
-								<input type="text" size="20%" name="" placeholder="city">
-								<input type="text" size="20%" name="" placeholder="State/Province">
+								<input type="text" size="20%" name="" placeholder="city" required>
+								<input type="text" size="20%" name="" placeholder="State/Province" required>
 							</td>
 						</tr>
 						<tr>
 							<td>
-								<input type="text" size="20%" name="" placeholder="Postal/Zip">
-								<select name="Country" id="count" placeholder="Country">
+								<input type="text" size="20%" name="" placeholder="Postal/Zip" required>
+								<select name="Country" id="count" placeholder="Country" required>
 									<option disabled selected value> -- select an option -- </option>
 									<option value="usa">USA</option>
 									<option value="uk">UK</option>
@@ -109,37 +109,37 @@
 						<tr><td> Phone Number: </td></tr>
 						<tr>
 							<td>
-								<input type="text"size="10%" name="code" placeholder="Country code">
+								<input type="text"size="10%" name="code" placeholder="Country code" required size="2">
 								-
-								<input type="text" name="num" placeholder="Phone Number">
+								<input type="text" name="num" placeholder="Phone Number" required size="10">
 							</td>
 						</tr>
 						<tr><td> What do you want to sign up for </td></tr>
 						<tr>
 							<td>
-								<select name="Country" id="count" placeholder="Country">
+								<select name="choice" id="ch">
 									<option disabled selected value> -- select an option -- </option>
-									<option value="usa">Subdivision</option>
-									<option value="uk">Building</option>
-									<option value="ind">Apartment</option>
-									<option value="ch">Services</option>
-									<option value="ch">Self-Service[Apt]</option>
+									<option value="Subdivision">Subdivision</option>
+									<option value="Building">Building</option>
+									<option value="Apartment">Apartment</option>
+									<option value="Services">Services</option>
+									<option value="SelfService">Self-Service[Apt]</option>
 								</select>
 							</td>
 						</tr>
 						<tr><td> Your Preference </td></tr>
 						<tr>
 							<td>
-								<select name="Country" id="count" placeholder="Country">
+								<select name="preference" id="pref">
 									<option disabled selected value> -- select an option -- </option>
-									<option value="usa">Subdivision Name</option>
-									<option value="uk">Building Number</option>
-									<option value="ind">Apartment Number</option>
+									<option value="Subdivision Name">Subdivision Name</option>
+									<option value="Building Number">Building Number</option>
+									<option value="Apartment Number">Apartment Number</option>
 								</select>
 							</td>
 						</tr>
 					</table>
-					<input class="submitbtn" type="submit" name="submit" value="Sign Up" onclick="sendMail()">
+					<input class="submitbtn" type="submit" name="submit" value="Sign Up">
 				</form>
 </div>
 <footer>
