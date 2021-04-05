@@ -159,8 +159,8 @@
 						<tr><td> Full Name: </td></tr>
 						<tr>
 							<td>
-								<input type="text" name="firstname" id="firstname" placeholder="First Name" required onkeyup="saveValue(this)">
-								<input type="text" name="lastname" id="lastname" placeholder="Last Name" required  onkeyup="saveValue(this)">
+								<input type="text" name="firstname" id="firstname" pattern="[a-zA-Z]+" title ="This field must contain characters only." placeholder="First Name" required onkeyup="saveValue(this)">
+								<input type="text" name="lastname" id="lastname" pattern="[a-zA-Z]+" title ="This field must contain characters only." placeholder="Last Name" required  onkeyup="saveValue(this)">
 							</td>
 						</tr>
 						<tr>
@@ -168,7 +168,7 @@
 						</tr>
 						<tr>
 							<td>
-								<input type="email" size="30%" name="email" id="email" placeholder="ex@example.com" required onkeyup="saveValue(this)">
+								<input type="email" size="30%" name="email" id="email" title = "Please provide a valid email address."  pattern = "^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$" placeholder="ex@example.com" required onkeyup="saveValue(this)">
 							</td>
 						</tr>
 						<tr>
@@ -176,7 +176,7 @@
 						</tr>
 						<tr>
 							<td>
-								<input type="password" name="password" id="pwd" placeholder="Password" required onkeyup="saveValue(this)">
+								<input type="password" name="password" id="pwd" title="Password must contain at least 6 characters, including UPPER/lowercase and numbers." pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" placeholder="Password" required onkeyup="saveValue(this)">
 							</td>
 						</tr>
 						<tr>
@@ -184,7 +184,7 @@
 						</tr>
 						<tr>
 							<td>
-								<input type="password" name="confpassword" id="cnpass" placeholder="Re-enter Password" required onkeyup="saveValue(this)">
+								<input type="password" name="confpassword" id="cnpass" title="Please enter the same Password as above." pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}"placeholder="Re-enter Password" required onkeyup="saveValue(this)">
 							</td>
 						</tr>
 						<tr><td> Address: </td></tr>
@@ -200,13 +200,13 @@
 						</tr>
 						<tr>
 							<td>
-								<input type="text" size="20%" name="city" id="city" placeholder="city" required onkeyup="saveValue(this)">
-								<input type="text" size="20%" name="state" id="state" placeholder="State/Province" required onkeyup="saveValue(this)">
+								<input type="text" size="20%" name="city" id="city" pattern="[a-zA-Z]+" title ="This field must contain characters only." placeholder="city" required onkeyup="saveValue(this)">
+								<input type="text" size="20%" name="state" id="state" pattern="[a-zA-Z]+" title ="This field must contain characters only." placeholder="State/Province" required onkeyup="saveValue(this)">
 							</td>
 						</tr>
 						<tr>
 							<td>
-								<input type="text" size="20%" name="zipcode" id="zipcode" placeholder="Postal/Zip" required onkeyup="saveValue(this)">
+								<input type="text" size="20%" name="zipcode" id="zipcode" pattern="^(0|[1-9][0-9]*)$" placeholder="Postal/Zip" required onkeyup="saveValue(this)">
 								<select name="Country" id="count" placeholder="Country" required onchange="saveValue(this)">
 									<option disabled selected value> -- select an option -- </option>
 									<option value="usa">USA</option>
@@ -218,9 +218,9 @@
 						</tr>
 						<tr>
 							<td>
-								<input type="text"size="10%" name="code" id="code" placeholder="Country code" required size="2" onkeyup="saveValue(this)">
+								<input type="text"size="10%" name="code" id="code" pattern="^(0|[1-9][0-9]*)$" placeholder="Country code" required size="2" onkeyup="saveValue(this)">
 								-
-								<input type="text" name="num" id="num" placeholder="Phone Number" required size="10" onkeyup="saveValue(this)">
+								<input type="text" name="num" id="num"  pattern ="^\d{10}$" placeholder="Phone Number" required size="10" onkeyup="saveValue(this)">
 							</td>
 						</tr>
 						<tr><td> What do you want to sign up for </td></tr>

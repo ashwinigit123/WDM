@@ -29,7 +29,7 @@ If you have questions about this website, please <a href="ContactUs.php">Contact
         location.href = "Signup.php";
     };
 		document.getElementById("login").onclick = function () {
-        location.href = "Login.html";
+        location.href = "Login.php";
     };
 </script>
 </div>
