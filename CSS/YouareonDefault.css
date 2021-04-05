@@ -12,6 +12,10 @@ body, html {
   box-sizing: border-box;
 }
 
+.star{
+    color: red;
+}
+
 .bgrndimage{
   /* The image used */
   background-image: url("image/img1.jpg");

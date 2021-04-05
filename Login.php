@@ -1,3 +1,5 @@
+<?php
+?>
 <html>
 <head lang="en">
 	<meta charset="utf-8">
@@ -36,7 +38,7 @@
 
 					</table>
 
-					<input class="submitbtn" type="submit" name="submit" value="Login" onclick="redirectUser(this.form)" >
+					<input class="submitbtn" type="submit" name="submit" value="Login"  >
 
 				</form>
 </div>
