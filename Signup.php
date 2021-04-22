@@ -98,8 +98,8 @@
       $header .= "MIME-Version: 1.0\r\n";
       $header .= "Content-type: text/html\r\n";
 
-      $retval = mail ($to,$subject,$message,$header);
-      if( $retval == true ) {
+      $sendemail = mail ($to,$subject,$message,$header);
+      if( $sendemail == true ) {
         //echo "true";
         //header('Location: HomePage.html');
         header("Location:http://axt1312.uta.cloud/WDMProject/HomePage.php");

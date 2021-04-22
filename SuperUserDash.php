@@ -12,7 +12,7 @@
 	<div class="sidenav_heading">
 			<h2>Menu</h2>
 	</div>
-	<a href="HomePage.html">Home</a>
+	<a href="HomePage.php">Home</a>
 	<a href="SuperUserDash.php">Dashboard</a>
 	<a href="AddSubdivision.php">Add Subdivision</a>
 	<a href="AddBuilding.php">Add Building</a>

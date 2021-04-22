@@ -9,9 +9,29 @@ https://fontawesome.com/icons/building?style=regular
 https://www.w3schools.com/howto/howto_js_sidenav.asp
 https://www.w3schools.com/howto/howto_css_responsive_form.asp
 
-Login Dummy values:
-For Navigations:
-1. Building owner Dashboard : emailID: abc@gmail.com
-2. Apartment owner Dashboard : emailID: xyz@gmail.com
-3. Subdivision owner Dashboard : emailID: lmn@gmail.com
-4. Super User Dashboard : emailID: pqr@gmail.com
+Login Credentials - http://axt1312.uta.cloud/WDMProject/Login.php
+Credentials -
+
+
+
+SuperUser
+Username -john@gmail.com
+Password -john
+
+
+
+Subdivision
+Username - hanna@gmail.com
+Password - hanna
+
+
+
+Building owner
+Username- nadia@gmail.com
+Password-nadia
+
+
+
+Apartment owner
+Username-johnC@gmail.com
+Password-johnC
